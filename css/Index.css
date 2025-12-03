@@ -1,0 +1,22 @@
+
+body {
+    margin: auto;
+    padding: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(220, 243, 223);
+    text-align: center;
+    
+}
+
+img {
+    width: 900px;
+    height: 500px;
+    flex: 0 0 auto;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.nav {
+    text-align: left;
+    text-decoration: none;
+    color: inherit;
+}

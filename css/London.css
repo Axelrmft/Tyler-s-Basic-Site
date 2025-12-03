@@ -1,0 +1,65 @@
+body {
+    margin: auto;
+    padding: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(220, 243, 223);
+}
+.photo-container {
+    display: flex;
+    padding: 20px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.photo {
+    flex: 0 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.excursion-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-rows: auto;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.excursion {
+    width: 300px;
+    border-radius: 10px;
+    background: #f0f0f0;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    text-decoration: none;
+    color: inherit;
+}
+
+.excursion img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.excursion h4, p {
+    margin: 5px 0;
+    word-wrap: break-word;
+}
+
+.excursion:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
